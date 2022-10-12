@@ -1,0 +1,52 @@
+@import "~/styles/variables";
+
+.header-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: $header-height;
+  background-color: $primary-color;
+
+  .header-wrapper-inner {
+    max-width: $width;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: $header-top-height;
+  }
+
+  .header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: $header-bottom-height;
+
+    .header-bottom-left {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+    }
+
+    .header-bottom-middle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+    }
+
+    .header-bottom-right {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+    }
+  }
+}

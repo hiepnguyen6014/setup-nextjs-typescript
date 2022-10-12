@@ -1,0 +1,17 @@
+@import "~/styles/variables";
+
+.top-item {
+  color: $white;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+
+  + .top-item {
+    padding-left: 0.8rem;
+    margin-left: 0.8rem;
+    border-left: 0.15rem solid $white;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
